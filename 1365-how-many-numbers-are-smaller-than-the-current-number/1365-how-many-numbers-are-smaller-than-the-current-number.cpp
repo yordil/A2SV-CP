@@ -1,18 +1,18 @@
 class Solution {
 public:
     vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
-     vector <int > smaller(nums.size()) ;
-       int counter = 0 ;
-        for( int i = 0 ; i < nums.size() ; i++){
-            counter = 0 ;
-            for(int j = 0 ; j < nums.size() ; j++){
-                if(nums.at(i) > nums.at(j))
-                    counter++;
-    
-                
+        vector<int > val;
+         int len = nums.size();
+         int flag  = 0 ;
+        for(int i= 0 ; i < len ;i++){
+            flag = 0 ;
+            for(int j = 0 ; j < len ; j++){
+                if(nums[i] > nums[j])
+                    flag++;
             }
-           smaller.at(i) = counter;
+            val.emplace_back(flag);
         }
-        return smaller;
+        
+        return val;
     }
 };
