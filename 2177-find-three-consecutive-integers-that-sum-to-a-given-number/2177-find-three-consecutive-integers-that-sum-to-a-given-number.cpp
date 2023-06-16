@@ -8,9 +8,8 @@ public:
         }
         
         long long val = num / 3;
-           sum.push_back(val-1);
-            sum.push_back(val); 
-            sum.push_back(val+1);
+           sum.insert(sum.end() , { val -1 , val , val+1});
+           
         
            return sum;
             
