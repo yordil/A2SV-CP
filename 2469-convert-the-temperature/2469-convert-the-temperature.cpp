@@ -2,15 +2,7 @@ class Solution {
 public:
     vector<double> convertTemperature(double celsius) {
         setprecision(6);
-        
-        double kelvin = celsius + 273.15 ; 
-        double far = celsius * 1.80 +32 ;
-        
-        vector <double> ret = {kelvin , far};
-        
-        return ret;
-        
-    }
-    
-    
+       vector<double> conv {273.15 + celsius , celsius*1.80 + 32.00};
+        return conv;
+    } 
 };
