@@ -13,7 +13,6 @@ public:
             }
              if( x == 123 )
                return true;
-             else
                return false;
         }
     
