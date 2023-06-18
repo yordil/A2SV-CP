@@ -12,8 +12,7 @@ public:
                     return false;
             }
              if( x == 123 )
-               return true;
-               return false;
+               return true;  return false;
         }
     
 };
