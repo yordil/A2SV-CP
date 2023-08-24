@@ -7,7 +7,12 @@ class NumArray:
         self.left = left
         self.right = right
         
-        return sum(self.nums[left : right]) + self.nums[right]
+        sumt = 0
+        
+        while left <=right:
+            sumt+= self.nums[left]
+            left+=1
+        return sumt
         
 
 
