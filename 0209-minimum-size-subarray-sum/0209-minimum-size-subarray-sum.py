@@ -2,10 +2,9 @@ class Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
         
         
-        if sum(nums) < target:
-            return 0
+       
         
-        minval = len(nums)
+        minval = 10 ** 5 + 2
         
         L = 0 
         Sum = 0 
@@ -20,7 +19,7 @@ class Solution:
                 
             
                 
-        return minval
+        return 0 if minval == 10 ** 5 + 2 else minval
                 
         
         
@@ -44,4 +43,7 @@ class Solution:
     
     # first implmentation
 #         return minval
+
+
+# we can implment using float flag 
                 
