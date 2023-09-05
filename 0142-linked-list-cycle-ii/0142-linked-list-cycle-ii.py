@@ -10,21 +10,56 @@ class Solution:
         # // my first implmentation using hashset and O(n) memory space
         
         # val = 0 ;
-        
-        myhash = set()
-        
+         
         slow , fast =  head , head
         
         while fast and fast.next:
+           
             
-            if slow in myhash:
-                return slow
-            
-            myhash.add(slow)
-            
-            slow = slow.next
+            slow = slow.next 
             fast = fast.next.next
             
+            if slow == fast:
+                break
+                
+        if not fast or not fast.next:
+            return None
+        
+        anotherslow = head
+        
+        while anotherslow != slow:
+            anotherslow= anotherslow.next
+            slow =slow.next
+            
+        return anotherslow
             
             
-        return None
+            
+       
+    
+    
+    
+# class Solution:
+#     def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        
+#         # // my first implmentation using hashset and O(n) memory space
+        
+#         # val = 0 ;
+        
+#         myhash = set()
+        
+#         slow , fast =  head , head
+        
+#         while fast and fast.next:
+            
+#             if slow in myhash:
+#                 return slow
+            
+#             myhash.add(slow)
+            
+#             slow = slow.next
+#             fast = fast.next.next
+            
+            
+            
+#         return None
