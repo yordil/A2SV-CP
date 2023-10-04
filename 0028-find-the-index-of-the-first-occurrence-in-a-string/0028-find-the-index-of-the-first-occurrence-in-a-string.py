@@ -4,5 +4,3 @@ class Solution:
           return haystack.find(needle)
        else:
           return -1
-        
-    
