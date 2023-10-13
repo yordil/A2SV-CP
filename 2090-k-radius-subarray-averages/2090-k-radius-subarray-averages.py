@@ -1,6 +1,7 @@
 class Solution:
     def getAverages(self, nums: List[int], k: int) -> List[int]:
         
+         
         List=[-1] * len(nums)
                                
         left_pointer = 0 
@@ -8,22 +9,24 @@ class Solution:
         divisor = 2*k + 1
         Sum = 0 
         
+        if len(nums) < divisor:
+            return List
         
         i = k;
         
+        Sum= sum(nums[left_pointer:right+1])
+        average = Sum / divisor
+        List[i] = floor(average)
+        
+        i+=1
+        
         while i < len(nums)-k:
-            if i == k:
-                Sum= sum(nums[left_pointer:right+1])
-                average = Sum / divisor
-                List[i] = floor(average)
-            else:
-                # average = Sum / divisor
-                right +=1
-                Sum += -nums[left_pointer] + nums[right]
-                List[i] = floor(Sum/divisor)
-                left_pointer +=1  
-               
-            
+            # average = Sum / divisor
+            right +=1
+            Sum += -nums[left_pointer] + nums[right]
+            List[i] = floor(Sum/divisor)
+            left_pointer +=1  
+    
             i +=1
                            
                 
