@@ -1,9 +1,6 @@
 class Solution:
     def getAverages(self, nums: List[int], k: int) -> List[int]:
         
-        # if len(nums) < 2:
-        #     return nums
-        
         List=[-1] * len(nums)
                                
         left_pointer = 0 
@@ -28,12 +25,6 @@ class Solution:
                
             
             i +=1
-        
-#         for i in range(k,len(nums)):
-#              if  i+k < len(nums):
-                
-            
-            
-                
+                           
                 
         return List
