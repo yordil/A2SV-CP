@@ -11,4 +11,5 @@ class Solution:
                 
         return first_sum
             
-        
+# since in the constraint we have told that the length of the array is <=
+# 100 so O(n^2) so normal in this condition
