@@ -11,9 +11,7 @@ class Solution:
         d.rotate(k)
         
         nums[:] = list(d)
-        
-        return nums
-            
+             
             
         
         
