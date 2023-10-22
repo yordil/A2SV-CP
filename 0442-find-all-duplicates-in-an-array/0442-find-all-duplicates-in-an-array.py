@@ -10,10 +10,7 @@ class Solution:
                 duplicates.append(idx + 1)
             else:
                 nums[idx] = -nums[idx]
-
-        for i in range(len(nums)):
-            nums[i] = abs(nums[i])
-
+                
         return duplicates
 
             
