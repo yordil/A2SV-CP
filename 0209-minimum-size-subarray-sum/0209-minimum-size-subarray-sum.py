@@ -2,9 +2,10 @@ class Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
         
         
+        
        
         
-        minval = 10 ** 5 + 2
+        minval = inf
         
         L = 0 
         Sum = 0 
@@ -19,7 +20,7 @@ class Solution:
                 
             
                 
-        return 0 if minval == 10 ** 5 + 2 else minval
+        return 0 if minval == inf else minval
                 
         
         
