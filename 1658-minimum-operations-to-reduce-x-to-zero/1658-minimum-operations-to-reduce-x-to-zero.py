@@ -8,7 +8,6 @@ class Solution:
         prefix = 0
         l = 0 
         
-        
         for r in range(len(nums)):
             prefix += nums[r] 
             
