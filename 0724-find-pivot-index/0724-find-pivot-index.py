@@ -7,7 +7,6 @@ class Solution:
         
         rightsum = 0 
         for i in range(len(nums)):
-            
             prefix +=nums[i]
             rightsum = Sum - prefix + nums[i]
             
