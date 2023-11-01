@@ -1,24 +1,23 @@
 class Solution:
     def countStudents(self, students: List[int], sandwiches: List[int]) -> int:
         
-        stud = deque(students)
-        san = deque(sandwiches) 
-        left = 0
-        answer= 0
-        while san:
+        students = deque(students)
+        sandwiches = deque(sandwiches)
+        
+        while sandwiches:
+            student = students[0]
             
-            
-            if stud[0] != san[0]:
-                stud.append(stud.popleft())
-                
+            if student == sandwiches[0]:
+                students.popleft()
+                sandwiches.popleft()
             else:
-                answer +=1
-                stud.popleft()
-                san.popleft()
-                
-            if all(s != san[0] for s in stud):
-                break
-                
-        return len(students) - answer
-                
+                if sandwiches[0] not in students:
+                    break
+
+                students.popleft()
+                students.append(student)
+
+        return len(students)
+    
+    
                 
