@@ -9,11 +9,9 @@ class Solution:
         while l <= r:
             
             if people[l] + people[r] <= limit:
-                r-=1
                 l+=1   
-            elif people[l] + people[r] > limit:
-                r-=1
-                
+         
+            r-=1
             boats+=1
                 
         return boats
