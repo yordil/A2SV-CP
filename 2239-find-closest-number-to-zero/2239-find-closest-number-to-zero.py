@@ -2,7 +2,7 @@ class Solution:
     def findClosestNumber(self, nums: List[int]) -> int:
         
         val = float('inf') 
-        nums.sort()
+       
         for i in nums:
             val = min(val , abs(i - 0))
             
