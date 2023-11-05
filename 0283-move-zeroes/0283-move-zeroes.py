@@ -7,7 +7,7 @@ class Solution:
         
         for r in range(len(nums)):
             
-            if nums[r]:
+            if nums[r]: # which means not zero 
                 nums[left] , nums[r] = nums[r] , nums[left]
                 
                 left+=1
