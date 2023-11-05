@@ -1,44 +1,32 @@
 class Solution:
     def minimumRefill(self, plants: List[int], capacityA: int, capacityB: int) -> int:
-        
-        
-        l , r = 0 , len(plants) -1 
-        diffa = 0 
-        diffb = 0
-        refill_flag = 0    
-        ca = capacityA
-        cb = capacityB
-        
-        while l <= r:
-            
-            if  l == r:
-                if ca >= cb:
-                    if ca < plants[l]:
-                        refill_flag+=1
+        alice , bob = capacityA , capacityB
+        left  , right = 0 , len(plants) -1 
+        refill = 0
+        while left <= right:
+            if left == right:
+                if alice >=bob:
+                    if alice < plants[left]:
+                        refill +=1
                 else:
-                    if cb < plants[r]:
-                        refill_flag +=1
+                     if bob < plants[left]:
+                        refill +=1
                 break
+            if  alice < plants[left]:
+                alice = capacityA
+                refill +=1
+                 
+            if bob < plants[right]:
+                bob = capacityB
+                refill +=1
+            alice -= plants[left]    
+            bob -= plants[right]
             
-            if ca < plants[l]:
-                ca = capacityA
-                refill_flag +=1
-        
-            if cb < plants[r]:
-                cb = capacityB
-                refill_flag+=1  
-                
-            
-            
-            ca -= plants[l]
-            cb -= plants[r]
-            
-            l+=1
-            r-=1
+            left+=1 
+            right -=1 
             
             
-        return refill_flag
-            
+        return refill
             
             
             
