@@ -3,19 +3,21 @@ class Solution:
         
         nums1.sort()
         nums2.sort()
-        result = []
-        i , j = 0 , 0
         
-        while i < len(nums1) and j < len(nums2):
-            if nums1[i] == nums2[j]:
-                result.append(nums1[i])
-                i+=1
-                j+=1
-            elif nums1[i] > nums2[j]:
-                j+=1
+        result = []
+        
+        left , right = 0 , 0 
+        
+        while left < len(nums1)  and right < len(nums2):
+            if nums1[left] == nums2[right]:
+                result.append(nums1[left])
+                right+=1
+                left+=1
+                
+            elif nums1[left] > nums2[right]:
+                right +=1
+            
             else:
-                i+=1
+                left +=1
                 
         return result
-                
-        
