@@ -16,9 +16,9 @@ class Solution:
             else:
                 myhash[num2] += 1  # Increment the count for the sum of digits
             
-            max_count = max(max_count, myhash[num2])  # Update the maximum count
+              # Update the maximum count
         
-        return max_count
+        return max(myhash.values())
 
                 
             
