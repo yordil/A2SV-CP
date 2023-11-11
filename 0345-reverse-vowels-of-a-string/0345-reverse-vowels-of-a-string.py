@@ -12,14 +12,11 @@ class Solution:
                 ss[left] , ss[right] = ss[right] , ss[left]
                 left+=1
                 right-=1
-            elif ss[left]  not in ls and s[right] in ls:
-                
+            elif ss[left]  not in ls and s[right] in ls:  
                 left+=1
-            elif ss[left] in ls and ss[right] not in ls:
-                
+            elif ss[left] in ls and ss[right] not in ls:  
                 right-=1
-            else:
-                
+            else:  
                 right-=1
                 left+=1
                 
