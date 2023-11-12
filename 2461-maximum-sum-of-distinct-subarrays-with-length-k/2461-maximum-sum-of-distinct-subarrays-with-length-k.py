@@ -5,13 +5,11 @@ class Solution:
         h = set()
         maxsum = 0
         left = 0
-
         for i in range(n):
             while nums[i] in h:
                 h.discard(nums[left])
                 Sum -= nums[left]
                 left += 1
-            
             
             h.add(nums[i])
             Sum += nums[i]
