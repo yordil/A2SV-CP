@@ -4,6 +4,7 @@ class Solution:
         counter = 0
         cap= capacity
         left = 0
+        
         while left < len(plants):
             
             if cap >= plants[left]:
