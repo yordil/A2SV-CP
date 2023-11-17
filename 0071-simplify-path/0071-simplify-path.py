@@ -3,7 +3,8 @@ class Solution:
         
         stack = []
         curr = ""
-        for c in path + "/":
+        path+="/"
+        for c in path:
             if c == "/":
                 if curr == "..":
                     if stack:
