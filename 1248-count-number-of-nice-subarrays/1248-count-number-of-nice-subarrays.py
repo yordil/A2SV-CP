@@ -1,6 +1,5 @@
 class Solution:
     def numberOfSubarrays(self, nums: List[int], k: int) -> int:
-        prefix = [0] * len(nums)
         for i in range(len(nums)):
             if nums[i] % 2 == 1:
                 nums[i] = 1
