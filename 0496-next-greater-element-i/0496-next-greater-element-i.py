@@ -1,24 +1,30 @@
 class Solution:
     def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
+        next_great =  {}
         
-        ans = [-1] * len(nums1)
-        
-        myhash = {value : index for index , value in enumerate(nums1)}
         stack = []
-        for i in range(len(nums2)):
-            if nums2[i] not in myhash:
-                continue
-                
-            for j in range(i+1 , len(nums2)):
-                if nums2[j] > nums2[i]:
-                    indexx = myhash[nums2[i]]
-                    ans[indexx] = nums2[j]
-                    break
-                    
-        return ans
-                
+
+        for num in nums2:
+
+            while stack and stack[-1] < num:
+                next_great[stack[-1]] = num
+                stack.pop()
+
+            stack.append(num)
+
+
+        ans  = []
+
+        for num in nums1:
+            if num in next_great:
+                ans.append(next_great[num])
             
+            else:
+                ans.append(-1)
+
+        return ans 
+
             
-        
-            
+
+
         
