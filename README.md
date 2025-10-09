@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/yordil/A2SV-CP/tree/master/0169-majority-element) |
 | [0496-next-greater-element-i](https://github.com/yordil/A2SV-CP/tree/master/0496-next-greater-element-i) |
+| [1046-max-consecutive-ones-iii](https://github.com/yordil/A2SV-CP/tree/master/1046-max-consecutive-ones-iii) |
 ## Hash Table
 |  |
 | ------- |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/yordil/A2SV-CP/tree/master/0003-longest-substring-without-repeating-characters) |
+| [1046-max-consecutive-ones-iii](https://github.com/yordil/A2SV-CP/tree/master/1046-max-consecutive-ones-iii) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -45,4 +47,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/yordil/A2SV-CP/tree/master/0155-min-stack) |
+## Binary Search
+|  |
+| ------- |
+| [1046-max-consecutive-ones-iii](https://github.com/yordil/A2SV-CP/tree/master/1046-max-consecutive-ones-iii) |
+## Prefix Sum
+|  |
+| ------- |
+| [1046-max-consecutive-ones-iii](https://github.com/yordil/A2SV-CP/tree/master/1046-max-consecutive-ones-iii) |
 <!---LeetCode Topics End-->
