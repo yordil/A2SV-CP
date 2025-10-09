@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0035-search-insert-position](https://github.com/yordil/A2SV-CP/tree/master/0035-search-insert-position) |
 | [0169-majority-element](https://github.com/yordil/A2SV-CP/tree/master/0169-majority-element) |
+| [0215-kth-largest-element-in-an-array](https://github.com/yordil/A2SV-CP/tree/master/0215-kth-largest-element-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/yordil/A2SV-CP/tree/master/0496-next-greater-element-i) |
 | [1046-max-consecutive-ones-iii](https://github.com/yordil/A2SV-CP/tree/master/1046-max-consecutive-ones-iii) |
 ## Hash Table
@@ -36,10 +37,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/yordil/A2SV-CP/tree/master/0169-majority-element) |
+| [0215-kth-largest-element-in-an-array](https://github.com/yordil/A2SV-CP/tree/master/0215-kth-largest-element-in-an-array) |
 ## Sorting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/yordil/A2SV-CP/tree/master/0169-majority-element) |
+| [0215-kth-largest-element-in-an-array](https://github.com/yordil/A2SV-CP/tree/master/0215-kth-largest-element-in-an-array) |
 ## Counting
 |  |
 | ------- |
@@ -57,4 +60,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1046-max-consecutive-ones-iii](https://github.com/yordil/A2SV-CP/tree/master/1046-max-consecutive-ones-iii) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/yordil/A2SV-CP/tree/master/0215-kth-largest-element-in-an-array) |
+## Quickselect
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/yordil/A2SV-CP/tree/master/0215-kth-largest-element-in-an-array) |
 <!---LeetCode Topics End-->
