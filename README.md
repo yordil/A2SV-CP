@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/yordil/A2SV-CP/tree/master/0035-search-insert-position) |
 | [0169-majority-element](https://github.com/yordil/A2SV-CP/tree/master/0169-majority-element) |
 | [0496-next-greater-element-i](https://github.com/yordil/A2SV-CP/tree/master/0496-next-greater-element-i) |
 | [1046-max-consecutive-ones-iii](https://github.com/yordil/A2SV-CP/tree/master/1046-max-consecutive-ones-iii) |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/yordil/A2SV-CP/tree/master/0035-search-insert-position) |
 | [1046-max-consecutive-ones-iii](https://github.com/yordil/A2SV-CP/tree/master/1046-max-consecutive-ones-iii) |
 ## Prefix Sum
 |  |
