@@ -82,13 +82,23 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0112-path-sum](https://github.com/yordil/A2SV-CP/tree/master/0112-path-sum) |
 | [0813-all-paths-from-source-to-target](https://github.com/yordil/A2SV-CP/tree/master/0813-all-paths-from-source-to-target) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0112-path-sum](https://github.com/yordil/A2SV-CP/tree/master/0112-path-sum) |
 | [0813-all-paths-from-source-to-target](https://github.com/yordil/A2SV-CP/tree/master/0813-all-paths-from-source-to-target) |
 ## Graph
 |  |
 | ------- |
 | [0813-all-paths-from-source-to-target](https://github.com/yordil/A2SV-CP/tree/master/0813-all-paths-from-source-to-target) |
+## Tree
+|  |
+| ------- |
+| [0112-path-sum](https://github.com/yordil/A2SV-CP/tree/master/0112-path-sum) |
+## Binary Tree
+|  |
+| ------- |
+| [0112-path-sum](https://github.com/yordil/A2SV-CP/tree/master/0112-path-sum) |
 <!---LeetCode Topics End-->
