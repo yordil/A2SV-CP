@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/yordil/A2SV-CP/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/yordil/A2SV-CP/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/yordil/A2SV-CP/tree/master/0169-majority-element) |
+| [0200-number-of-islands](https://github.com/yordil/A2SV-CP/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/yordil/A2SV-CP/tree/master/0215-kth-largest-element-in-an-array) |
 | [0219-contains-duplicate-ii](https://github.com/yordil/A2SV-CP/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/yordil/A2SV-CP/tree/master/0239-sliding-window-maximum) |
@@ -93,11 +94,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0112-path-sum](https://github.com/yordil/A2SV-CP/tree/master/0112-path-sum) |
+| [0200-number-of-islands](https://github.com/yordil/A2SV-CP/tree/master/0200-number-of-islands) |
 | [0813-all-paths-from-source-to-target](https://github.com/yordil/A2SV-CP/tree/master/0813-all-paths-from-source-to-target) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0112-path-sum](https://github.com/yordil/A2SV-CP/tree/master/0112-path-sum) |
+| [0200-number-of-islands](https://github.com/yordil/A2SV-CP/tree/master/0200-number-of-islands) |
 | [0813-all-paths-from-source-to-target](https://github.com/yordil/A2SV-CP/tree/master/0813-all-paths-from-source-to-target) |
 ## Graph
 |  |
@@ -123,4 +126,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/yordil/A2SV-CP/tree/master/0239-sliding-window-maximum) |
+## Union Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/yordil/A2SV-CP/tree/master/0200-number-of-islands) |
+## Matrix
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/yordil/A2SV-CP/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
