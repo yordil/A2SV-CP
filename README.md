@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/yordil/A2SV-CP/tree/master/0215-kth-largest-element-in-an-array) |
 | [0219-contains-duplicate-ii](https://github.com/yordil/A2SV-CP/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/yordil/A2SV-CP/tree/master/0239-sliding-window-maximum) |
+| [0380-insert-delete-getrandom-o1](https://github.com/yordil/A2SV-CP/tree/master/0380-insert-delete-getrandom-o1) |
 | [0496-next-greater-element-i](https://github.com/yordil/A2SV-CP/tree/master/0496-next-greater-element-i) |
 | [1046-max-consecutive-ones-iii](https://github.com/yordil/A2SV-CP/tree/master/1046-max-consecutive-ones-iii) |
 | [1095-two-city-scheduling](https://github.com/yordil/A2SV-CP/tree/master/1095-two-city-scheduling) |
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/yordil/A2SV-CP/tree/master/0169-majority-element) |
 | [0219-contains-duplicate-ii](https://github.com/yordil/A2SV-CP/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/yordil/A2SV-CP/tree/master/0242-valid-anagram) |
+| [0380-insert-delete-getrandom-o1](https://github.com/yordil/A2SV-CP/tree/master/0380-insert-delete-getrandom-o1) |
 | [0496-next-greater-element-i](https://github.com/yordil/A2SV-CP/tree/master/0496-next-greater-element-i) |
 ## Stack
 |  |
@@ -70,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/yordil/A2SV-CP/tree/master/0155-min-stack) |
+| [0380-insert-delete-getrandom-o1](https://github.com/yordil/A2SV-CP/tree/master/0380-insert-delete-getrandom-o1) |
 ## Binary Search
 |  |
 | ------- |
@@ -140,4 +143,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1095-two-city-scheduling](https://github.com/yordil/A2SV-CP/tree/master/1095-two-city-scheduling) |
+## Math
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/yordil/A2SV-CP/tree/master/0380-insert-delete-getrandom-o1) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/yordil/A2SV-CP/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
